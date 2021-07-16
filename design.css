@@ -1,0 +1,101 @@
+body{
+    background: url("./thumb-1920-1109821.png");
+}
+body{
+    background-color: rgb(138, 253, 228);
+}
+body{
+    height: 100vh;
+}
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    padding: 30px 40px;
+}
+
+#newtask{
+    background-color:#9ffff2
+}
+#newtask input{
+    width: 80%;
+    height: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 28px;
+    border:2px solid #fffefe;
+    padding:12px;
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 58px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+#task{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px rgb(0, 0, 0);
+    width: 80%;
+    position: relative;
+}
+
+.task{
+    background: rgb(255, 255, 255); 
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #d1d3d4;
+}
+
+#tasks{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.task span{
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task button{
+    border: none;
+    background: #19A68C;
+    height: 100%;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
